@@ -1,0 +1,1 @@
+See https://iwritecrappycode.wordpress.com/2013/09/06/saltybot-a-decent-into-madness/ for more info.

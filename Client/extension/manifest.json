@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Saltybot-Lite",
+  "description": "Escape the saltmines by knowing the odds",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["http://www.saltybet.com/"],
+      "css": ["styles.css"],
+      "js": ["jquery.js", "jquery-ui.min.js", "saltyBotLite.js"]
+    }
+  ],
+  "permissions": ["http://xerointeractive.com/*","http://www.xerointeractive.com/*"] 
+}
